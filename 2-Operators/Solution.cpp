@@ -20,7 +20,7 @@ int main() {
     double tip = mealCost * double(tipPercent)/100.;
     double tax = mealCost * double(taxPercent)/100.;
     
-    cout << "The total meal cost is " << int(mealCost + tip + tax) << " dollars.";
+    cout << "The total meal cost is " << int(round(mealCost + tip + tax)) << " dollars.";
 
     return 0;
 }
