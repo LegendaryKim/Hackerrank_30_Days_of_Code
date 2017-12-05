@@ -11,7 +11,7 @@ int main(){
         cout << "Weird";
     } else if (N < 6) {
         cout << "Not Weird";
-    } else if (N < 20) {
+    } else if (N < 21) {
         cout << "Weird";
     } else {
         cout << "Not Weird";
