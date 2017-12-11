@@ -7,7 +7,7 @@ N = int(input().strip())
 for a0 in range(N):
     firstName,emailID = input().strip().split(' ')
     firstName,emailID = [str(firstName),str(emailID)]
-    if re.search("@gmail\.com$", emailID):
+    if re.search(".+@gmail\\.com$", emailID):
         Names.append(firstName)
 
 Names.sort()
